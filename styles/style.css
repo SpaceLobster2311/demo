@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,15 +12,22 @@ ul{
     margin: 0;
 }
 
+p{
+    color: black;
+    text-decoration: none;
+}
 li{
     /* Remove bullets from lists*/
-    list-style: none;
+    list-style: square;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 /* Website styles */
 
 header{
-    background: #888;
+    background: rgba(0, 0, 0, 0.788);
     height: 100px;
 
 }
@@ -35,7 +43,7 @@ h1{
 nav li{
     display: inline-block;
     margin-top: 30px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 nav li a{
@@ -66,7 +74,8 @@ main li:last-child{
 }
 
 footer{
-    height: 100px;
-    background-color: gray;
+    text-decoration-color: red;
+    height: 50px;
+    background-color: rgb(43, 1, 228);
     text-align: center;
 }
