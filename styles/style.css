@@ -76,6 +76,6 @@ main li:last-child{
 footer{
     text-decoration-color: red;
     height: 50px;
-    background-color: rgb(43, 1, 228);
+    background-color: rgba(37,142,255,1);
     text-align: center;
 }
